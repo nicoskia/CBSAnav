@@ -19,11 +19,11 @@ function doC()
     }
 
 var imageArrayA = new Array();
-    imageArrayA[0] = "images/CBSA/a-1.jpg";
-    imageArrayA[1] = "images/CBSA/a-2.jpg";
-    imageArrayA[2] = "images/CBSA/a-3.jpg";
-    imageArrayA[3] = "images/CBSA/a-4.jpg";
-    imageArrayA[4] = "images/CBSA/a-5.jpg";
+    imageArrayA[0] = "images/CBSA/a-1.JPG";
+    imageArrayA[1] = "images/CBSA/a-2.JPG";
+    imageArrayA[2] = "images/CBSA/a-3.JPG";
+    imageArrayA[3] = "images/CBSA/a-4.JPG";
+    imageArrayA[4] = "images/CBSA/a-5.JPG";
 
 function doA()
     {
