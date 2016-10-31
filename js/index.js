@@ -12,7 +12,7 @@ function doC()
     {
     var rand = Math.floor(Math.random()*7);
 
-    var imgPath = "<img src='"+imageArrayC[rand]+"' alt='heder' border='0' align='absmiddle' />";
+    var imgPath = "<img src='"+imageArrayC[rand]+"' alt='header' border='0' align='absmiddle' />";
 
     document.getElementById("imageC").innerHTML = imgPath;
 
@@ -29,7 +29,7 @@ function doA()
     {
     var rand = Math.floor(Math.random()*5);
 
-    var imgPath = "<img src='"+imageArrayA[rand]+"' alt='heder' border='0' align='absmiddle' />";
+    var imgPath = "<img src='"+imageArrayA[rand]+"' alt='header' border='0' align='absmiddle' />";
 
     document.getElementById("imageA").innerHTML = imgPath;
 
@@ -47,7 +47,7 @@ function doB()
     {
     var rand = Math.floor(Math.random()*6);
 
-    var imgPath = "<img src='"+imageArrayB[rand]+"' alt='heder' border='0' align='absmiddle' />";
+    var imgPath = "<img src='"+imageArrayB[rand]+"' alt='header' border='0' align='absmiddle' />";
 
     document.getElementById("imageB").innerHTML = imgPath;
 
@@ -66,7 +66,7 @@ function doS()
     {
     var rand = Math.floor(Math.random()*5);
 
-    var imgPath = "<img src='"+imageArrayS[rand]+"' alt='heder' border='0' align='absmiddle' />";
+    var imgPath = "<img src='"+imageArrayS[rand]+"' alt='header' border='0' align='absmiddle' />";
 
     document.getElementById("imageS").innerHTML = imgPath;
 
