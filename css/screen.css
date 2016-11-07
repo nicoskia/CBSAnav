@@ -1,9 +1,3 @@
-@media (max-width:400px) {
-h1 {
-	font-size: .8em;
-	}
-}
-
 h1 {
 	margin: 0 8.4% 0 7%;
 	padding: 30px 0 10px 0;
@@ -13,6 +7,15 @@ h1 {
 	font-weight: 400;
 	font-style: normal;
 	font-size: 20px;
+}
+
+@media (max-width:400px) {
+h1 {
+	font-size: .8em;
+	}
+	ul {
+		font-size: .5em;
+	}
 }
 
 h2 {
@@ -66,7 +69,7 @@ header {
 	font-size: 15px;
 }
 .main {
-	padding: 25px;
+	padding: 2%;
 	overflow: hidden;
 	margin: 0 8.4% 0 7%;
 	background: #CFCFCF;
@@ -76,7 +79,7 @@ header {
 	margin: 0 auto;
 }
 .CBSA-logo {
-	width: 853px;
+	width: 77.5%;
 	display: block;
 	margin: 0 auto;
 	background: #18453B;
@@ -540,7 +543,3 @@ If the margin is set differently for your site, fix the margin here to reflect t
 	margin-right: 12px;
 }
 }
-
-
-
-
