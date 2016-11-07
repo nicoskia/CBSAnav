@@ -9,12 +9,12 @@ h1 {
 	font-size: 20px;
 }
 
-@media (max-width:400px) {
+@media (max-width:450px) {
 h1 {
 	font-size: .8em;
 	}
-	ul {
-		font-size: .5em;
+#imageC {
+	width: 10%;
 	}
 }
 
@@ -70,6 +70,7 @@ header {
 }
 .main {
 	padding: 2%;
+	width: 80.6%;
 	overflow: hidden;
 	margin: 0 8.4% 0 7%;
 	background: #CFCFCF;
