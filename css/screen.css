@@ -1,6 +1,8 @@
-/* Add your CSS below */
-
-/* Example: adding a background color to the HTML body */
+@media (max-width:400px) {
+h1 {
+	font-size: .8em;
+	}
+}
 
 h1 {
 	margin: 0 8.4% 0 7%;
@@ -12,6 +14,7 @@ h1 {
 	font-style: normal;
 	font-size: 20px;
 }
+
 h2 {
 	text-align: center;
 	color: #18453B;
@@ -417,8 +420,8 @@ If the margin is set differently for your site, fix the margin here to reflect t
 #MSUstandardFooter #standard-footer-site-nocall-links ul li {
 	display: inline-block;
 	font-size: 12px;    /* V2.0 */
- font-size: 1rem:    /* V2.0 */
- padding-left: 4px;
+ 	font-size: 1rem;    /* V2.0 */
+ 	padding-left: 4px;
 }
 #MSUstandardFooter #standard-footer-site-nocall-links ul li:first-child {
 	display: inline-block;
@@ -537,3 +540,7 @@ If the margin is set differently for your site, fix the margin here to reflect t
 	margin-right: 12px;
 }
 }
+
+
+
+
