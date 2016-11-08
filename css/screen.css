@@ -113,7 +113,6 @@ img {
 @media (max-width:1018px) {
 	.logo-format {
 		width: 420px;
-		
 	}
 	#imageC {
 		width: 100px;
@@ -126,6 +125,17 @@ img {
 	}
 	#imageA {
 		width: 100px;
+	}
+	.screen-msuwordmark {
+		max-width: 75%;
+		clear: both;
+	}
+	#standard-footer-site-links {
+		display: none;
+	}
+	#standard-footer-MSU-info {
+		font-size: 3em;
+		display: block;
 	}
 }
 
