@@ -55,7 +55,13 @@ body {
 	font-weight: 400;
 	font-style: normal;
 	font-size: 15px;
+	
 }
+
+#mobile-footer-MSU-info {
+		display: none;
+	}
+
 header {
 	margin: 0 8.4% 0 7%;
 	background: #18453B;
@@ -128,14 +134,16 @@ img {
 	}
 	.screen-msuwordmark {
 		max-width: 75%;
-		clear: both;
+		display: block;
 	}
 	#standard-footer-site-links {
 		display: none;
 	}
 	#standard-footer-MSU-info {
-		font-size: 3em;
-		display: block;
+		display: none;
+	}
+	#mobile-footer-MSU-info {
+		display: inline-block;
 	}
 }
 
@@ -687,6 +695,63 @@ footer {
 }
 #standard-footer-MSU-wordmark img.print-msuwordmark {
 	display: none;
+}
+
+/*MOBILE FOOTER*/
+
+#MSUstandardFooter #mobile-footer-MSU-info {
+	font-size: 15px;          /* V2.0 */
+	font-size: .8rem;    /* V2.0 */
+	margin-top: 2px;
+	padding-top: 0px;
+	float: left;
+	clear: right;
+}
+#MSUstandardFooter #mobile-footer-MSU-info ul {
+	margin: 0px;
+	padding: 0px;
+	height: 16px;
+	font-size: 15px;          /* V2.0 */
+	font-size: .8rem;    /* V2.0 */
+}
+#MSUstandardFooter #mobile-footer-MSU-info ul li {
+	margin-bottom: 0px;
+	line-height: 18px;
+	display: block;
+	/*-right: 1px solid #999;*/
+	padding: 0px 8px 0px 4px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+#MSUstandardFooter #mobile-footer-MSU-info ul li.spartans-will {
+	text-transform: uppercase;
+	font-weight: 600;    /* V2.0 */
+}
+#MSUstandardFooter #mobile-footer-MSU-info ul li:first-child {
+	padding-left: 0px;
+}
+#MSUstandardFooter #mobile-footer-MSU-info ul li:last-child {
+	border-right: 0px;
+}
+#MSUstandardFooter #mobile-footer-MSU-info ul li a {
+	text-decoration: none;
+}
+#MSUstandardFooter #mobile-footer-MSU-info ul li a:hover {
+	text-decoration: underline;
+}
+#MSUstandardFooter.light-background #mobile-footer-MSU-info {
+	color: #18453b;
+}
+#MSUstandardFooter.light-background #mobile-footer-MSU-info a, #MSUstandardFooter.light-background #standard-footer-MSU-info .msu-phone {
+	font-size: .8rem;
+	color: #4c7e00;    /* V2.0 */
+}
+#MSUstandardFooter.dark-background #mobile-footer-MSU-info {
+	color: #fff;
+}
+#MSUstandardFooter.dark-background #mobile-footer-MSU-info a, #MSUstandardFooter.dark-background #standard-footer-MSU-info .msu-phone {
+	font-size: 0.8rem;
+	color: #81d300;     /* V2.0 */
 }
 
 /* #Print Styles
