@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
-<title>Center for Business and Social Analytics</title>
+<title>Lunch | Center for Business and Social Analytics</title>
 <meta name="description" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- External link (relative) to your main stylesheet -->
@@ -13,9 +13,17 @@
 </head>
 <body>
 <div id="fb-root"></div>
+<script>(function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+            fjs.parentNode.insertBefore(js, fjs);
+          	}(document, 'script', 'facebook-jssdk'));
+          </script>
 <header>
   <div id="masthead-logo"> <img id ="msulogo" src="images/masthead-helmet-white.png" alt="MSU masthead logo" /> </div>
-  <div id="search-tool-box">
+  <div id="search-tool-box"> 
     <form action="https://search.msu.edu/index.php" method="get">
       <input accesskey="4" id="q" name="q" placeholder="Search..."/>
       <input id="btn_search" type="submit" value=""/>
@@ -24,6 +32,7 @@
 </header>
 <h1>CENTER FOR BUSINESS AND SOCIAL ANALYTICS</h1>
 <body>
+
 <ul class="topnav" id="myTopnav">
   <li><a href="index.html">Home</a></li>
   <li><a href="connect.html">Connect</a></li>
@@ -34,7 +43,9 @@
   <li><a href="conference.html">Annual Conference</a></li>
   <li><a href="lunch.html">Lunches</a></li>
   <li><a href="about_us.html">About Us</a></li>
-  <li class="icon"> <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a> </li>
+  <li class="icon">
+    <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
+  </li>
 </ul>
 <script>
 function myFunction() {
@@ -46,36 +57,30 @@ function myFunction() {
     }
 }
 </script>
+
 </body>
+
 <section>
   <div class="main">
     <div class="section-1">
-      <div class="logo-format">
-        <div class="CBSA-logo">
-          <div id="imageC"></div>
-          <div id="imageB"></div>
-          <div id="imageS"></div>
-          <div id="imageA"></div>
-        </div>
-      </div>
+    	<div class="logo-format">
+		  <div class="CBSA-logo">
+			<div id="imageC"></div>
+			<div id="imageB"></div>
+			<div id="imageS"></div>
+			<div id="imageA"></div>
+		  </div>
+		</div>
       <br>
-      <h2>Welcome</h2>
+      <h2>Lunch</h2>
       <hr>
-      <p class="welcome-info">CBSA’s goal is to accelerate research that uses digital resources to understand and predict social, economic, business and government processes from the ground up.  We will do this by providing and coordinating resources to enhance multi-college collaboration, the sharing of ideas, and innovation across the University.</p>
-      <p class="welcome-info">Unlike a traditional bricks and mortar research center, CBSA operates as a virtual entity. To promote collaboration and innovation, CBSA offers the following services:</p>
-      <ul>
-        <li><a href="seed-grant.html">Seed Grant Program</a></li>
-        <li><a href="lunch.html" target="_blank">Social Capital Lunch Program</a></li>
-        <li><a href="conference.html" target="_blank">Annual Research Conference</a></li>
-        <li><a href="resources.html">Links to other centers and programs at MSU</a></li>
-      </ul>
-      <p>Questions?  Contact the CBSA Faculty Director: <a href="mailto:pentlan2@msu.edu?Subject=" target="_top">Professor Brian Pentland</a></p>
+		<p>We believe that the most interesting and impactful research will result from combining ideas from diverse disciplines.  To facilitate these (re)combinations, CBSA is committed to facilitating connections between faculty in different departments.  If you are interested in meeting some interesting faculty, sharing ideas, strategizing about research projects, and temporarily dropping your disciplinary baggage, please contact the faculty director, <a href="mailto:pentlan2@msu.edu?Subject=" target="_top">Brian Pentland</a>, to get an invitation.</p>
       <script type="text/javascript">
              doC();
              doB();
              doS();
              doA();
-         </script>
+         </script> 
     </div>
   </div>
 </section>

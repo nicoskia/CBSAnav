@@ -132,21 +132,19 @@ img {
 	#imageA {
 		width: 100px;
 	}
-	.MSUwrapper {
-		display: block;
-	}
 	.screen-msuwordmark {
-		max-width: 75%;
+		max-width: 80%;
 	}
-	#standard-footer-site-links {
-		display: none;
+	#standard-footer-site-links li strong{
+		font-size: .8em;
 	}
-	#standard-footer-MSU-info {
-		display: none;
+	#standard-footer-site-links li a{
+		font-size: .8em;
 	}
-	#mobile-footer-MSU-info {
-		display: inline;
+	#standard-footer-MSU-info li {
+		font-size: .8em;
 	}
+	
 }
 
 @media (max-width:694px) {
@@ -344,6 +342,28 @@ ul.topnav li.icon {display: none;}
     float: right;
     display: inline-block;
   }
+	
+	.MSUwrapper {
+	}
+	.screen-msuwordmark {
+		max-width: 75%;	
+		margin-bottom: 5%;
+	}
+	#standard-footer-site-links {
+		display: inherit;
+	}
+	#standard-footer-MSU-info {
+		display: none;
+	}
+	#mobile-footer-MSU-info {
+		display: inherit;
+	}
+	#standard-footer-MSU-wordmark {
+		display: none;
+	}
+	#MSUstandardFooter {
+		margin: 0 50% 0 25%;
+	}
 }
 
 @media screen and (max-width:860px) {
@@ -685,14 +705,14 @@ footer {
 	color: #18453b;
 }
 #MSUstandardFooter.light-background #standard-footer-MSU-info a, #MSUstandardFooter.light-background #standard-footer-MSU-info .msu-phone {
-	font-size: 0.5625rem;
+	font-size: 0.7rem;
 	color: #4c7e00;    /* V2.0 */
 }
 #MSUstandardFooter.dark-background #standard-footer-MSU-info {
 	color: #fff;
 }
 #MSUstandardFooter.dark-background #standard-footer-MSU-info a, #MSUstandardFooter.dark-background #standard-footer-MSU-info .msu-phone {
-	font-size: 0.5625rem;
+	font-size: 0.7rem;
 	color: #81d300;     /* V2.0 */
 }
 #standard-footer-MSU-wordmark img.print-msuwordmark {
