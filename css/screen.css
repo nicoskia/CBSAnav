@@ -44,6 +44,16 @@ a {
 a:hover {
 	color: #000000;
 }
+
+#title_link {
+	color: #FFFFFF;
+	font-family: 'Gotham SSm A', 'Gotham SSm B', sans-serif;
+	/*	font-family: 'gotham book';*/
+	font-weight: 400;
+    text-decoration: none;
+	font-style: normal;
+	font-size: 1em;
+}
 p {
 	font-family: 'Gotham SSm A', 'Gotham SSm B', sans-serif;
 	}
