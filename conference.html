@@ -33,20 +33,28 @@
 <h1>CENTER FOR BUSINESS AND SOCIAL ANALYTICS</h1>
 <body>
 
-<ul class="topnav" id="myTopnav">
-  <li><a href="index.html">Home</a></li>
-  <li><a href="connect.html">Connect</a></li>
+<div id="navStore">
+<ul class="topnav dropdown" id="myTopnav">
+  <li><a href="index.html">About Us</a></li>
+  <li><a href="connect.html">Connect</a>
+    <ul>
+        <li><a href="#">ScholarMap</a></li>
+        <li><a href="#">Sign Up</a></li>
+    </ul>
+      </li>
+  <li><a href="#">Services</a>
+    <ul>
+        <li><a href="seed-grant.html">Seed Grant</a></li>
+        <li><a href="lunch.html">Lunch</a></li>
+        <li><a href="conference.html">Conference</a></li>
+        <li><a href="resources.html">Resources</a></li>
+      </ul>
+    </li>
   <li><a href="http://msudatascience.com/" target="_blank">MSU Data Science</a></li>
-  <li><a href="resources.html">Campus Resources</a></li>
   <li><a href="affiliated_faculty.html">Affiliated Faculty</a></li>
-  <li><a href="seed-grant.html">Seed Grant RFP</a></li>
-  <li><a href="conference.html">Annual Conference</a></li>
-  <li><a href="lunch.html">Lunches</a></li>
-  <li><a href="about_us.html">About Us</a></li>
-  <li class="icon">
-    <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
-  </li>
+  <li class="icon"> <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a> </li>
 </ul>
+    </div>
 <script>
 function myFunction() {
     var x = document.getElementById("myTopnav");
